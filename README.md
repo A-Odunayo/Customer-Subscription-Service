@@ -51,13 +51,35 @@ The main analysis is organized into Excel, SQL, and Power BI tasks to achieve ea
 
 #### Steps:
 - **Customer Distribution by Region**: Calculate the total number of customers from each region.
+  ```SQL
+  Select Region,Count(CustomerID) As Total_Customers From [dbo].[Customer Data]
+  Group by Region
+  Order by Total_Customers Desc
+
 - **Subscription Popularity**: Identify popular subscription types.
+  ```SQL
+  Select subscriptionType, Count(CustomerID) As Total_Subscriptions From [dbo].[Customer Data]
+  Group by SubscriptionType
+  Order by Total_Subscriptions Desc
+
 - **Customer Cancellations**: Retrieve customers who canceled within six months.
+  ```SQL
+  
 - **Average Subscription Duration**: Calculate the average duration of subscriptions.
+  ```SQL
+  
 - **Long-Term Subscribers**: Find customers with subscriptions longer than 12 months.
+  ```SQL
+  
 - **Revenue Calculation**: Calculate total revenue by subscription type.
+  ```SQL
+  
 - **Regional Cancellations**: Identify the top three regions by cancellation rate.
+  ```SQL
+  
 - **Subscription Status**: Count active and canceled subscriptions.
+  ```SQL
+  
 
 ### 3. Power BI Dashboard
 
