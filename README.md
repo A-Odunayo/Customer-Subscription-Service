@@ -16,17 +16,25 @@ This project analyzes customer data from a subscription service to identify cust
 - **SQL**: Data extraction and analysis to answer key business questions.
 - **Power BI**: Visualization and dashboard creation for stakeholder review.
 
-## Repository Structure
+## Data Source
 
-- `data/`: Contains raw data files (e.g., `subscription_data.csv`).
-- `excel/`: Excel analysis file (`subscription_analysis.xlsx`) with pivot tables for initial exploration.
-- `sql/`: SQL scripts used to extract insights and answer key business questions.
-- `power_bi/`: Power BI dashboard file (`subscription_dashboard.pbix`).
-- `reports/`: Findings and recommendations generated from the analysis.
+The data for this project includes customer records from a subscription service database. Each record contains details on subscription type, duration, customer region, start and end dates, cancellation status, and revenue information.
 
----
+> **Note**: The dataset used in this project is either synthetic or anonymized for privacy. If real data were to be used, privacy considerations such as data masking and anonymization would apply to protect sensitive information.
 
-## Project Instructions
+## Exploratory Data Analysis (EDA)
+
+The EDA was conducted to understand the distribution and relationships within the data before performing detailed analysis. Key steps included:
+
+- **Data Cleaning**: Checked for missing values, outliers, and inconsistencies.
+- **Descriptive Statistics**: Generated summary statistics for subscription durations, cancellations, and revenue distribution.
+- **Visualization**: Created basic charts to visualize customer distribution by region, subscription type popularity, and overall revenue contributions.
+
+The `excel/` folder contains an `EDA_summary.xlsx` file with detailed EDA insights, pivot tables, and initial visualizations.
+
+## Analysis
+
+The main analysis is organized into Excel, SQL, and Power BI tasks to achieve each project goal. Here’s a breakdown:
 
 ### 1. Excel Analysis
 
@@ -93,4 +101,5 @@ Based on the findings, here are targeted recommendations to improve customer ret
 - **Power BI Dashboard**: An interactive dashboard with slicers for stakeholder review.
 
 ---
+
 
