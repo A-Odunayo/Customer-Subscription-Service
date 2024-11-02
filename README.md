@@ -1,20 +1,28 @@
-# Customer Segmentation Analysis for Subscription Service
+# Customer Subscription Service
 
 ## Project Overview
 
-This project analyzes customer data from a subscription service to identify customer segments, trends in cancellations and renewals, and patterns in subscription types. The analysis results in a Power BI dashboard that provides actionable insights for stakeholders, enabling data-driven decisions to enhance customer retention and revenue growth.
+This project analyzes customer data from a subscription service to identify segments, trends in cancellations and renewals, and patterns in subscription types. The analysis results in a Power BI dashboard that provides actionable insights for stakeholders, enabling data-driven decisions to enhance customer retention and revenue growth.
 
 ## Project Goals
 
 1. **Identify Key Customer Segments**: Uncover patterns in subscription types and durations.
 2. **Analyze Cancellations and Renewals**: Discover trends and possible drivers behind cancellations and renewals.
-3. **Create Interactive Visuals**: Use Power BI to build a dashboard with interactive data filtering for in-depth analysis.
+3. **Create Interactive Visuals**: Use Power BI to build a dashboard.
 
 ## Tools and Technologies
 
 - **Excel**: Data summarization and pivot table analysis.
+
+  [Download here](https://microsoft-excel-2016.en.download.it/#google_vignette)
+
 - **SQL**: Data extraction and analysis to answer key business questions.
-- **Power BI**: Visualization and dashboard creation for stakeholder review.
+
+  [Download here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+
+- **Power BI**: Visualization and dashboard creation.
+
+  [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
 ## Data Source
 
@@ -26,7 +34,7 @@ The data for this project includes customer records from a subscription service 
 
 The EDA was conducted to understand the distribution and relationships within the data before performing detailed analysis. Key steps included:
 
-- **Data Cleaning**: Checked for missing values, outliers, and inconsistencies.
+- **Data Cleaning**: Checked and removal of duplicates.
 - **Descriptive Statistics**: Generated summary statistics for subscription durations, cancellations, and revenue distribution.
 - **Visualization**: Created basic charts to visualize customer distribution by region, subscription type popularity, and overall revenue contributions.
 
