@@ -1,4 +1,5 @@
 ﻿CustomerID,CustomerName,Region,SubscriptionType,SubscriptionStart,SubscriptionEnd,Canceled,Revenue
+
 201,John,North,Basic,1/31/2022,1/31/2023,FALSE,"2,638"
 202,Jane,South,Premium,2/28/2022,2/28/2023,TRUE,"2,456"
 203,Alex,East,Basic,3/31/2022,3/31/2023,FALSE,"2,833"
