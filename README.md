@@ -46,63 +46,46 @@ The main analysis is organized into Excel, SQL, and Power BI tasks to achieve ea
 
 ### 1. Excel Analysis
 
-**Objective**: Use pivot tables to identify patterns in subscription types and durations.
-
-#### Steps:
-- Calculate the average subscription duration.
-- Identify the most popular subscription types.
-- Generate additional reports to reveal trends in the dataset.
+**Pivot tables** was used to identify patterns in subscription types.
 
 ### 2. SQL Analysis
 
-**Objective**: Extract key insights using SQL queries.
+Some queries were used to extract key insights, see below:
 
-#### Steps:
-- **Customer Distribution by Region**: Calculate the total number of customers from each region.
+- **Total number of customers from each region**
   ```SQL
   Select Region,Count(CustomerID) As Total_Customers From [dbo].[Customer Data]
   Group by Region
   Order by Total_Customers Desc
 
-- **Subscription Popularity**: Identify popular subscription types.
+- **Popular subscription types**
   ```SQL
-  Select subscriptionType, Count(CustomerID) As Total_Subscriptions From [dbo].[Customer Data]
+  Select Top 1 subscriptionType, Count(CustomerID) As Total_Subscriptions From [dbo].[Customer Data]
   Group by SubscriptionType
   Order by Total_Subscriptions Desc
 
-- **Customer Cancellations**: Retrieve customers who canceled within six months.
+- **Average duration of subscriptions**
   ```SQL
+  Select Avg(Datediff(Month, Subscriptionstart, Subscriptionend)) As Average_Duration
+  From [dbo].[Customer Data]
+  Where cancellation_status = 'Active'
   
-- **Average Subscription Duration**: Calculate the average duration of subscriptions.
+- **Total revenue by subscription type**
   ```SQL
-  
-- **Long-Term Subscribers**: Find customers with subscriptions longer than 12 months.
-  ```SQL
-  
-- **Revenue Calculation**: Calculate total revenue by subscription type.
-  ```SQL
-  
-- **Regional Cancellations**: Identify the top three regions by cancellation rate.
-  ```SQL
-  
-- **Subscription Status**: Count active and canceled subscriptions.
-  ```SQL
-  
+  Select Subscriptiontype, Sum(Revenue) As Total_Revenue From [dbo].[Customer Data]
+  Group by SubscriptionType
+  Order by Total_revenue DESC;
 
 ### 3. Power BI Dashboard
 
-**Objective**: Visualize customer segments, cancellation rates, and subscription trends.
+With the use of **Bar Chart, Pie Chart, Card, Gauge, Slicer, Column Chart** and **Tables**, the below was visualized for interractive analysis.
 
-#### Dashboard Visualizations:
-- **Subscription Types by Popularity**: Bar chart showing the popularity of subscription types.
-- **Cancellations by Region**: Heat map or column chart displaying regional cancellations.
-- **Subscription Duration Distribution**: Histogram of average subscription durations.
-- **Revenue by Subscription Type**: Pie or donut chart illustrating revenue by subscription type.
-- **Active vs. Canceled Subscriptions**: Stacked bar chart comparing active and canceled subscriptions.
-- **Top Regions by Cancellations**: Ranking chart of the top three regions with the highest cancellation rates.
-- **Interactive Slicers**: Filters for region, subscription type, and status to allow stakeholders to explore the data.
-
----
+- **Subscription Types by Popularity**
+- **Cancellations by Region**
+- **Subscription Duration Distribution**
+- **Revenue by Subscription Type**
+- **Active vs. Canceled Subscriptions**
+- **Top Regions by Cancellations**
 
 ## Findings
 
@@ -124,11 +107,7 @@ Based on the findings, here are targeted recommendations to improve customer ret
 
 ---
 
-## Project Deliverables
-
-- **Excel Reports**: Summary reports and pivot tables showing key metrics.
-- **SQL Scripts**: Queries to extract and analyze customer data.
-- **Power BI Dashboard**: An interactive dashboard with slicers for stakeholder review.
+🙂
 
 ---
 
