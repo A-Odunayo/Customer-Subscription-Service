@@ -30,6 +30,8 @@ The data for this project includes customer records from a subscription service 
 
 > **Note**: The dataset used in this project is either synthetic or anonymized for privacy. If real data were to be used, privacy considerations such as data masking and anonymization would apply to protect sensitive information.
 
+[The Customer Data](https://github.com/A-Odunayo/Analysis-for-Subscription-Service/blob/main/Customer%20Subscription%20Data.csv)
+
 ## Exploratory Data Analysis (EDA)
 
 The EDA was conducted to understand the distribution and relationships within the data before performing detailed analysis. Key steps included:
@@ -37,8 +39,6 @@ The EDA was conducted to understand the distribution and relationships within th
 - **Data Cleaning**: Checked and removal of duplicates.
 - **Descriptive Statistics**: Generated summary statistics for subscription durations, cancellations, and revenue distribution.
 - **Visualization**: Created basic charts to visualize customer distribution by region, subscription type popularity, and overall revenue contributions.
-
-The `excel/` folder contains an `EDA_summary.xlsx` file with detailed EDA insights, pivot tables, and initial visualizations.
 
 ## Analysis
 
