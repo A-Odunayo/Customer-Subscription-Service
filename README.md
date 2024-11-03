@@ -36,9 +36,8 @@ The data for this project includes customer records from a subscription service 
 
 The EDA was conducted to understand the distribution and relationships within the data before performing detailed analysis. Key steps included:
 
-- **Data Cleaning**: Checked and removal of duplicates.
+- **Data Cleaning**: Checked and removal of duplicates and blank spaces.
 - **Descriptive Statistics**: Generated summary statistics for subscription durations, cancellations, and revenue distribution.
-- **Visualization**: Created basic charts to visualize customer distribution by region, subscription type popularity, and overall revenue contributions.
 
 ## Analysis
 
@@ -78,7 +77,7 @@ Some queries were used to extract key insights, see below:
 
 ### 3. Power BI Dashboard
 
-This [**Visualization](https://github.com/A-Odunayo/Analysis-for-Subscription-Service/blob/main/Visualization%20(Overview).PNG) shows interractive analysis in Power BI Dasshboard, as i used **Bar Chart, Pie Chart, Card, Gauge, Slicer, Column Chart** and **Tables**, to show some metrics as stated below.
+This [**Visualization**](https://github.com/A-Odunayo/Analysis-for-Subscription-Service/blob/main/Visualization%20(Overview).PNG) shows interractive analysis in Power BI Dasshboard, as i used **Bar Chart, Pie Chart, Card, Gauge, Slicer, Column Chart** and **Tables**, to show some metrics as stated below.
 
 - **Subscription Types by Popularity**
 - **Cancellations by Region**
