@@ -46,7 +46,7 @@ The main analysis is organized into Excel, SQL, and Power BI tasks to achieve ea
 
 ### 1. Excel Analysis
 
-**Pivot tables** was used to identify patterns in subscription types.
+This [**Pivot tables**](https://github.com/A-Odunayo/Analysis-for-Subscription-Service/blob/main/Pivot%20table.PNG) shows patterns in subscription types.
 
 ### 2. SQL Analysis
 
