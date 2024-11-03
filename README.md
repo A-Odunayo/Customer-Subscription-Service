@@ -46,7 +46,7 @@ The main analysis is organized into Excel, SQL, and Power BI tasks to achieve ea
 
 ### 1. Excel Analysis
 
-This [**Pivot tables**](https://github.com/A-Odunayo/Analysis-for-Subscription-Service/blob/main/Pivot%20table.PNG) shows patterns in subscription types.
+This [**Pivot tables**]() shows patterns in subscription types.
 
 ### 2. SQL Analysis
 
@@ -78,7 +78,7 @@ Some queries were used to extract key insights, see below:
 
 ### 3. Power BI Dashboard
 
-With the use of **Bar Chart, Pie Chart, Card, Gauge, Slicer, Column Chart** and **Tables**, the below was visualized for interractive analysis.
+This [**Visualization](https://github.com/A-Odunayo/Analysis-for-Subscription-Service/blob/main/Visualization%20(Overview).PNG) shows interractive analysis in Power BI Dasshboard, as i used **Bar Chart, Pie Chart, Card, Gauge, Slicer, Column Chart** and **Tables**, to show some metrics as stated below.
 
 - **Subscription Types by Popularity**
 - **Cancellations by Region**
@@ -91,12 +91,11 @@ With the use of **Bar Chart, Pie Chart, Card, Gauge, Slicer, Column Chart** and 
 
 From the data analysis and dashboard insights:
 
-- **Popular Subscription Types**: Short-term plans are most common, indicating that customers may be hesitant to commit to long-term plans.
-- **High Cancellation Rate in Specific Regions**: Certain regions have higher cancellation rates, especially within the first six months.
-- **Revenue Distribution**: A few subscription types contribute most to the revenue, suggesting potential for pricing strategy adjustments.
-- **Long-Term Subscribers**: A smaller segment maintains subscriptions beyond 12 months, indicating possible brand loyalty within this group.
+- **Cancellation Rate** is higher in the North, South and West.
+- **Basic Subscription Types** contribute over 50% of the revenue.
+- Certain regions show strong preferences for specific subscription plans
 
-## Recommendations
+- ## Recommendations
 
 Based on the findings, here are targeted recommendations to improve customer retention and revenue:
 
